@@ -2,7 +2,15 @@
 
 A docker container with dbcrossbar and related utils.
 
-Useful if:
+## Docker Hub
+
+We're at https://hub.docker.com/r/faraday/ubuntu_dbcrossbar
+
+```
+docker pull faraday/ubuntu_dbcrossbar
+```
+
+## Why it's useful
 
 * you want to know how to install dependencies
 * you are on a Mac and you want to avoid `The certificate was not trusted` errors (for otherwise valid certificates that Mac just won't accept)
